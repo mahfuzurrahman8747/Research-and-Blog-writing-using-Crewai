@@ -19,3 +19,23 @@ git commit -m "add a new file"
 
 
 git reset --hard "commit id " # if resst before git
+
+
+git reflog # to see all commit history
+
+git rm 'file name' 
+    git commit -m 'make a note' # to remove any file , do not use colon 
+
+
+git branch --list  # to see all branch
+
+
+git branch first/add-something  # to add new branch
+
+
+git switch first/add-something   # to go the branch
+
+    now i work in a branch 
+
+
+
