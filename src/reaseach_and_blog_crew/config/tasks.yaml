@@ -1,0 +1,21 @@
+report_task:
+  description: >
+    Based on the input topic: {topic}, generate a detailed report inciuding all the 
+    latest facts and future trands in a structured way. Make sure the report should 
+    around 2000 words.
+  expected_output: >
+    2000 words report about {topic} with all the latest facts and future trends,
+    formatted in markdown without '```'
+  agent: report_generator
+
+
+blog_writing_task:
+  description: >
+    Based on the input topic: {topic}, creat an well written and structured blog that 
+    even a 5 years can understand it. Make sure the blog should be fun to read and full of facts,
+    and should be around 500 words.
+  expected_output: >
+    500 words blog about {topic} that is fun to read and full of facts, 
+    written in a simple way that even a 5-year-old can understand it,
+    formatted in markdown without '```'
+  agent: blog_writer
