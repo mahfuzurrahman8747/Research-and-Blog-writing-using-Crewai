@@ -2,17 +2,20 @@ git init
 
 git status
 
-git add --all
+git add --all  # add all the folder
 
 
-git commit -m "First git"
+git commit -m "First git"  # which name do you want to use
 
 
-git status
+git status  # to see what is the status
 
 
-git log
+git log  # to see all the history
 
 git status
 
 git commit -m "add a new file"
+
+
+git reset --hard "commit id " # if resst before git
