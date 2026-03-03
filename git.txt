@@ -1,1 +1,18 @@
-stary git
+git init
+
+git status
+
+git add --all
+
+
+git commit -m "First git"
+
+
+git status
+
+
+git log
+
+git status
+
+git commit -m "add a new file"
