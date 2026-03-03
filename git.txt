@@ -37,5 +37,7 @@ git switch first/add-something   # to go the branch
 
     now i work in a branch 
 
+git switch second update  # to switch other branch
+
 
 
